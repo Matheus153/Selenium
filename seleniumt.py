@@ -9,7 +9,7 @@ options.add_argument("--headless")
 
 servico = Service(GeckoDriverManager().install())
 
-navegador = webdriver.Firefox(service=servico, options=options)
+navegador = webdriver.Firefox(service=servico)
 
 navegador.get('https://select-quiz.vercel.app')
 

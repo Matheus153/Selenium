@@ -1,0 +1,3 @@
+pip install pyinstaller
+
+pyinstaller --noconsole --name="sidia" --icon="sidia.ico" seleniumt.py
